@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ *::before::after {
+    @apply box-border;
+} 
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../src/fonts/eot/IRANSansWeb.eot');
+	src: url('../src/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../src/fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../src/fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../src/fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+body {
+	font-family: 'IRANSans' !important;
+	font-weight: 300;
+	margin: unset;
+	background-color: #F3F4F6;
+}
+
+ .container {
+    @apply px-4 !important;
+}
+
+ .svg-hover:hover svg {
+     fill: #5b21b6;
+}  
+ .svg-hoverflash:hover svg {
+    color: #5b21b6;
+}  
+
+.bigsvg-hover:hover svg {
+     fill:#F3F4F6;
+}
+
+.User-testimoni-active {
+    @apply scale-125 border-[#5b21b6];
+}
+
+.User-testimoni-active>span {
+    @apply bg-[#5b21b6];
+}
+
+.shadow-top {
+	box-shadow: 0 -3px 10px -7px rgba(115,115,115,0.75);
+}
