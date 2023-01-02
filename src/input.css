@@ -50,3 +50,28 @@ body {
 .shadow-top {
 	box-shadow: 0 -3px 10px -7px rgba(115,115,115,0.75);
 }
+
+.bgimage {
+	background-image: url('../src/images/633572_911.png');
+	@apply bg-cover bg-no-repeat;
+}
+.bgimage2 {
+	background-image: url('../src/images/77.jpg');
+	@apply bg-cover bg-no-repeat;
+}
+.bgimage3 {
+	background-image: url('../src/images/navoz.jpg');
+	@apply bg-cover bg-no-repeat;
+}
+.bgimage-ad1 {
+	background-image: url('../src/images/633572_911.png');
+	@apply bg-cover bg-no-repeat;
+}
+.bgimage-ad2 {
+	background-image: url('../src/images/Wheat-Pic.jpg');
+	@apply bg-cover bg-center bg-no-repeat;
+}
+.bgimage-ad3 {
+	background-image: url('../src/images/52f7b831962ef0ec189fd77b400deaef.jpg');
+	@apply bg-cover bg-center bg-no-repeat;
+}
